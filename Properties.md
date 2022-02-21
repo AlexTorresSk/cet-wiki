@@ -15,7 +15,7 @@ new Titlebar({
 The background color of titlebar. _The default color is `#ffffff`_
 
 <code>
-    backgroundColor: <b><a href="Color.md">Color</a></b>
+    backgroundColor: <b><a href="Color">Color</a></b>
 </code>
 
 ## Icon
@@ -37,7 +37,7 @@ The icon size of titlebar. Value between 16 and 24. _The default is `16`_
 ## Icons
 
 The path of the icons of titlebar.<br>
-Para saber como se personalizan revise [Icons](Icons.md)
+Para saber como se personalizan revise [Icons](Icons)
 
 <code>
     icons: <b>string</b>
@@ -103,7 +103,7 @@ Sets the value for the overflow of the container after title bar. Youy can use `
 
 The menu to show in the title bar. You can use `Electron.Menu` or not add this option and the menu created in the main process will be taken. _The default is `undefined`_
 
-For more info view [Menu](Menu.md). 
+For more info view [Menu](Menu). 
 
 <code>
     menu: <a href="https://www.electronjs.org/es/docs/latest/api/menu">
@@ -115,7 +115,7 @@ For more info view [Menu](Menu.md).
 
 The position of menubar on titlebar. You can use `left` or `bottom`. _The default is `left`_ 
 
-For more info view [Menu](Menu.md). 
+For more info view [Menu](Menu). 
 
 <code>
     menuPosition: <b>string</b>
@@ -134,7 +134,7 @@ Enable the mnemonics on menubar and menu items. _The default is `true`_
 The background color when the mouse is over the item. _The default is `undefined` (is calculated automatically)_ 
 
 <code>
-    itemBackgroundColor: <b><a href="Color.md">Color</a></b>
+    itemBackgroundColor: <b><a href="Color">Color</a></b>
 </code>
 
 ## Menu SVG color
@@ -142,5 +142,5 @@ The background color when the mouse is over the item. _The default is `undefined
 The color of the svg icons in the menu. _The default is `undefined` (is calculated automatically)_ 
 
 <code>
-    svgColor: <b><a href="Color.md">Color</a></b>
+    svgColor: <b><a href="Color">Color</a></b>
 </code>

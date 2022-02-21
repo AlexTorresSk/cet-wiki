@@ -7,3 +7,4 @@ Personalization
   - [[Color]]
   - [[Font]]
   - [[Icons]]
+  - [[Menu]]
